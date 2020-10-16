@@ -5,78 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Michar Breems ©">
-    <title>Michar's Coding Site</title>
+    <title>Michar's Developer Portfolio</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" >
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="img/michar-3714c699-cropped.png" alt="Michar profile picture"></td>
-            <td>
-                <h2><strong>Michar Breems</strong></h1>
-                <p><em>.NET Software Developer</em></p>
-                <p><i>
-                    I am a  <a href="https://dotnet.microsoft.com/">dotNET</a> software developer specialized in <strong>full-stack web development</strong>, based in Utrecht, The Netherlands.<br>
-                    Coffee is my fuel for the day. I am a family man, an av-geek, a techie and I like to go cycling & (ice)skating.
-                </i></p>
-            </td>
-        </tr>
-    </table>    
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Michar.</h1>
+        <h2 class="subtitle">a full-stack dotNET Software Developer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class='mountain-img' src="images/mountain.png" alt="mountain-img">
+    </div>
     <hr>
-    <h3>Work Experience</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Period</th>
-                <th>Job Title</th>
-                <th>Employer</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sept '20 - current</td>
-                <td>Full-stack dotnet software developer</td>
-                <td><a href="https://www.soulve.nu">Soulve Innovations</a></td>
-            </tr>
-            <tr>
-                <td>Mar '18 - Aug '20</td>
-                <td>Medior dotnet software developer</td>
-                <td><a href="https://www.airtrade.nl">Airtrade Holland</a></td>
-            </tr>
-            <tr>
-                <td>Nov '16 - Feb '18</td>
-                <td>Junior dotnet software developer</td>
-                <td><a href="https://www.airtrade.nl">Airtrade Holland</a></td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Back-end development</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Web development</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>dotNET Framework</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>                
-        <tr>
-            <td>dotNET Core</td>
-            <td>⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>Bachelor Logistics management - University of Applied Sciences Amsterdam</li>
-    </ul>
-    <hr>
-    <p><a href="hobbies.html">Hobbies</a> | <a href="contact.html">Contact Details</a></p>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/profile-circle-cropped.png" alt="profile-img">
+            <h2>Hello.</h2>
+            <p class="intro">I am a <a href="https://dotnet.microsoft.com/">dotNET</a> software developer specialized in
+                <strong>full-stack web development</strong>, based in Utrecht, The Netherlands.<br>
+                Coffee and tosties are my fuel for the day. I am a family man, an av-geek, a techie and I like to go cycling
+                & (ice)skating.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-img-left" src="images/api.png" alt="api-img">
+                <h3>Software Development</h3>
+                <p class="skill-description">In 2016 I came to the conclusion that my experience with logistics processes and ERP software as
+                    Logistics planner would be a great stepping stone for my passion, user-friendly and functional software.
+                    I completed a traineeship program to become a junior C# dotnet software developer as well as numerous
+                    online courses, and kicked off my professional developer career.
+                    I have always been interested in IT, but since my older brother was even more of a geek then me, I did
+                    not realize until a few years ago that I was geek enough to also work in the field of IT.
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-img-right" src="images/airplane.png" alt="airplane-img">
+                <h3>Flight simulation</h3>
+                <p class="skill-description">Many years ago, while attending a so-called lan-party, a friend introduced me to Flight Simulator 2002.
+                    Right then and there I became very fascinated with flying and the aviation industry.
+                    I became very eager to learn everything about flying, commercial airplanes and airports.
+                    I'm hoping that if my private life will allow for this in a few years, that I wouldhave enough spare time to join a nearby glider club.
+                    Until that time, I do love to pretend being a commercial pilot from my addic 'home-cockpit' occassionally.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <a class="button_contactme" href="mailto:micharsinbox@gmail.com">CONTACT ME</a>
+        </div>
+    </div>  
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/micharbreems">LinkedIn</a>
+        <a class="footer-link" href="https://www.github.com/mikelangelo24">Github</a>  
+        <p class='copyright'>© 2020 Michar Breems. <br>
+            <i>Icons made by <a class="copyright-link" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from 
+                <a class="copyright-link" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></i>
+        </p>
+        <p ></p>
+    </div>
 </body>
 
 </html>
